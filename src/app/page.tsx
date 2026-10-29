@@ -60,7 +60,7 @@ export default function PrivacyPolicyPage() {
           </div>
         </div>
 
-        <h1 className={styles.title}>Status Saver Privacy Policy</h1>
+        <h1 className={styles.title}>Privacy Policy</h1>
         <p className={styles.updated}>Effective date: {EFFECTIVE_DATE}</p>
 
         <p className={styles.intro}>
