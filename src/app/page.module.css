@@ -222,6 +222,47 @@
   line-height: 1.65;
 }
 
+.tableWrap {
+  overflow-x: auto;
+  margin: 4px 0 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.table th,
+.table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.table th {
+  background: var(--card);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--subtitle);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 .footer {
   border-top: 1px solid var(--border);
   margin-top: 40px;
